@@ -2,8 +2,11 @@ function updateSigninStatus(isSignedIn) {
   if (isSignedIn) {
     $authorizeButton.hide();
     $signoutButton.show();
+    $('.auth').hide();
+    $('.event-list').show();
     getEvents();
   } else {
+    $('.event-list').hide();
     $authorizeButton.show();
     $signoutButton.hide();
   }
