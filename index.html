@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Barlow:100,400,900" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Meetrix</title>
+</head>
+
+<body>
+  <ul class="event-list"></ul>
+
+  <!-- <div class="auth">
+    <h1>Start having better meetings right now.</h1>
+    <p>Sign up with your Google account, to import your calendar into Meetix</p>
+    <button id="authorize-button">Sign up with Google</button>
+    <button id="signout-button" class="waves-effect waves-light btn">Unauthorize</button>
+  </div> -->
+
+  <div class="tip">
+    <h1 class="tip-icon">
+      <i data-feather="map"></i>
+    </h1>
+    <div>
+      <h1>The best brainstorm</h1>
+      <p>Draw a map with connections between ideas. Use less resources remembering, and more ideating, neat!</p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/auth.js" type="text/javascript"></script>
+  <script src="./assets/js/app.js" type="text/javascript"></script>
+  <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()">
+  </script>
+</body>
+
+</html>

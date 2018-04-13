@@ -1,0 +1,119 @@
+* {
+     box-sizing: border-box;
+     font-family: 'Barlow', sans-serif;
+     word-wrap: break-word 
+}
+ body {
+     background-image: url('./assets/images/bg.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     overflow: hidden;
+}
+
+ul {
+  padding: 0;
+  margin-left: 3%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ .container {
+     width: 1280px;
+     margin: auto;
+}
+ #authorize-button {
+     display: none;
+     width: 100%;
+     height: 50px;
+     border: 0;
+     background: blue;
+     color: white;
+     cursor: pointer;
+}
+ #signout-button {
+     display: none;
+}
+ .event-list {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     width: 25%;
+}
+ .event-list li {
+     min-width: 100%;
+     background: white;
+     margin:20px;
+     padding: 20px;
+     box-shadow: 0 0 4px 3px #0000001a;
+     position: relative;
+}
+
+.event-list li:first-child {
+  margin-top: 100px;
+  background-color: #337AFF;
+  color: white;
+}
+
+.event-list li:first-child .next-up {
+  color: white;
+  position: absolute;
+  top: -75px;
+  left: 0;
+}
+
+
+ .auth {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 500px;
+     background: white;
+     padding: 20px;
+     box-shadow: 0 0 4px 3px #0000001a;
+}
+
+.tip {
+     position: absolute;
+     bottom: 3%;
+     right: 3%;
+     width: 500px;
+     background: white;
+     padding: 20px;
+     box-shadow: 0 0 4px 3px #0000001a;
+     display: flex;
+}
+
+.tip-icon {
+  margin-right: 30px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.tip-icon i {
+  font-size: 4rem;
+}
+
+.even-start {}
+.event-end {}
+.event-attendees {
+  float: right;
+}
+.event-attendees i {
+  margin-right: 5px;
+}
+.event-title {
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.event-owner {
+  text-transform: lowercase;
+}
+.event-list li .event-description {
+  background-color: #FFC233;
+  width: 50%;
+  padding: 10px 20px;
+}
