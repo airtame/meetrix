@@ -39,14 +39,13 @@ ul li {
      display: flex;
      flex-wrap: wrap;
      flex-direction: row;
-     width: 25%;
+     width: 30%;
 }
  .event-list li {
      min-width: 100%;
      background: white;
      margin:20px;
      padding: 20px;
-     box-shadow: 0 0 4px 3px #0000001a;
      position: relative;
 }
 
@@ -72,17 +71,15 @@ ul li {
      width: 500px;
      background: white;
      padding: 20px;
-     box-shadow: 0 0 4px 3px #0000001a;
 }
 
 .tip {
      position: absolute;
-     bottom: 3%;
-     right: 3%;
+     bottom: 6%;
+     right: 4%;
      width: 500px;
      background: white;
      padding: 20px;
-     box-shadow: 0 0 4px 3px #0000001a;
      display: flex;
 }
 
@@ -110,7 +107,8 @@ ul li {
   margin-top: 0;
 }
 .event-owner {
-  text-transform: lowercase;
+  text-transform: capitalize;
+  vertical-align: bottom;
 }
 .event-list li .event-description {
   background-color: #FFC233;
